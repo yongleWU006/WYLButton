@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <yongle.wylbtn.WYLButton
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        app:background_color="@color/colorPrimary"
+        app:press_background_color="@color/colorAccent"
+        android:text="WYLBUTTON"
+        app:text_color="@color/colorAccent"
+        app:press_text_color="@color/colorPrimary"
+        app:stroke_width="2dp"
+        app:stroke_color="#000"
+        app:press_stroke_color="#999"
+        app:dashGap="5dp"
+        app:dashWidth="4dp"
+        app:radius="10dp" />
+    <yongle.wylbtn.WYLButton
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        app:background_color="@color/colorPrimary"
+        app:press_background_color="@color/colorAccent"
+        android:text="WYLBUTTON"
+        app:text_color="@color/colorAccent"
+        app:press_text_color="@color/colorPrimary"
+        app:stroke_width="2dp"
+        app:stroke_color="#000"
+        app:press_stroke_color="#999"
+        app:dashGap="5dp"
+        app:dashWidth="4dp"
+        app:radius_lb="20dp"
+        app:radius_rt="20dp"/>
+    <yongle.wylbtn.WYLButton
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="WYLBUTTON"
+        app:text_color="@color/colorAccent"
+        app:press_text_color="@color/colorPrimary"
+        app:stroke_width="2dp"
+        app:stroke_color="#000"
+        app:press_stroke_color="#999"
+        app:dashGap="5dp"
+        app:dashWidth="4dp"
+        app:radius_lb="20dp"
+        app:radius_rt="20dp"
+        app:startColor="#fff"
+        app:centerColor="#000"
+        app:gradientOrientation="RIGHT_LEFT"
+        app:gradientType="sweep"
+        app:press_startColor="@color/colorPrimary"
+        app:press_centerColor="@color/colorAccent"/>
+</LinearLayout>

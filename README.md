@@ -5,7 +5,7 @@
 ## 使用步骤
 1. 添加依赖
 ```
-compile 'com.yonglelib:WYLButton:1.0.0'
+compile 'com.yonglelib:WYLButton:1.1.1'
 ```
 注意:如果添加依赖报错，在gradle中的allprojects/repositories下添加 maven { url 'https://dl.bintray.com/wuyongle006/maven' }
 ```

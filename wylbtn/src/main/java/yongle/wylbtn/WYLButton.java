@@ -358,10 +358,10 @@ public class WYLButton extends Button {
         }else {
             setTextColor(textColor);
         }
+        setBackgroundDrawable(gradientDrawable);
         if (backGroundImage != 0) {
             setBackgroundResource(backGroundImage);
         }
-        setBackgroundDrawable(gradientDrawable);
         //设置文字默认居中
         setGravity(Gravity.CENTER);
         //清除button的默认padding值
